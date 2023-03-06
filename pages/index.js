@@ -21,7 +21,7 @@ export default function Home() {
 
 
   const fetchData = async() => {
-    const rawResponse = await fetch('https://801f-34-105-31-72.ngrok.io/predict', {
+    const rawResponse = await fetch('https://e2de-34-105-31-72.ngrok.io/predict', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
